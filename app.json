@@ -2,6 +2,11 @@
   "expo": {
     "name": "Tricomplaint",
     "slug": "Tricomplaint",
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -45,6 +50,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3064eabb-d443-4318-bad7-61b415c3d5f0"
+      }
     }
   }
 }
